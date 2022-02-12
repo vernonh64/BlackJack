@@ -218,7 +218,7 @@ function playGame() {
         // Deal the cards
         console.log("Dealing the players cards??.")
         player.dealOpeningHand(gameDeck)
-        player.showHand();
+        //player.showHand();
 
         if (player.score == 21) {
             console.log("BLACKJACK!!!")
